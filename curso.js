@@ -55,7 +55,7 @@ curso.aprovacao("Otávio"),
 curso.aprovacao("Eduardo"),
 curso.aprovacao("Samuel"),
 curso.aprovacao("Carlos");
-console.log(curso.estudantes(curso.listaDeEstudantes(lista)));
+curso.estudantes(curso.listaDeEstudantes(lista));
 
 
 module.exports = curso;
